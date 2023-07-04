@@ -2,9 +2,9 @@ import os
 
 
 class Config:
-    API_ID = int(os.environ.get("API_ID", 0))  # Change 12345 to your API_ID
-    API_HASH = os.environ.get("API_HASH", None)  # Change None to your API_HASH
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", None)  # Change None to your BOT_TOKEN
+    API_ID = 27885485  # Change 12345 to your API_ID
+    API_HASH = "7dd9974c713787410beae4a295cc1e2d"  # Change None to your API_HASH
+    BOT_TOKEN = "6314663611:AAHPIGrhUU5ieN25ujs0pMW1_y9_NGsS4Cg"  # Change None to your BOT_TOKEN
     OWNER_ID = int(os.environ.get("OWNER_ID", 0))  # Change 0 to your OWNER_ID
     OWNER_NAME = os.environ.get("OWNER_NAME", None)  # Change None to your OWNER_NAME
 
